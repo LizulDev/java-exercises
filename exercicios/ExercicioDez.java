@@ -6,9 +6,10 @@ public class ExercicioDez {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         
+        // incomeTax (%11), inss (%8), union (%5);
         final double INCOME_TAX_RATE = 0.11;
         final double INSS_RATE = 0.08;
-        final double UNION_RATE = 0.05; // incomeTax (%11), inss (%8), union (%5);
+        final double UNION_RATE = 0.05; 
         
         System.out.println("| Calculo de salario |");
         System.out.println("Insira o valor ganho por hora(R$):");
